@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="min-h-screen flex flex-col">
+            <nav class="bg-white shadow-md fixed w-full z-50">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="flex justify-between h-20">
+                        <div class="flex items-center"><a href="#" class="flex items-center"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-home h-8 w-8 text-primary">
+                                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                </svg><span class="ml-2 text-2xl font-serif text-secondary">Farid DMC</span></a></div>
+                        <div class="hidden md:flex items-center space-x-8"><a href="#"
+                                class="text-secondary hover:text-primary transition-colors">Home</a><a href="#services"
+                                class="text-secondary hover:text-primary transition-colors">Services</a><a href="#about"
+                                class="text-secondary hover:text-primary transition-colors">About</a><a href="#contact"
+                                class="btn-primary">Contact</a></div>
+                        <div class="md:hidden flex items-center"><button class="text-secondary hover:text-primary"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-menu h-6 w-6">
+                                    <line x1="4" x2="20" y1="12" y2="12"></line>
+                                    <line x1="4" x2="20" y1="6" y2="6"></line>
+                                    <line x1="4" x2="20" y1="18" y2="18"></line>
+                                </svg></button></div>
+                    </div>
+                </div>
+            </nav>
+            <div class="h-[80vh] bg-cover bg-center relative"
+                style="background-image: url(&quot;https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80&quot;);">
+                <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="text-center text-white max-w-4xl px-4">
+                        <h1 class="text-5xl md:text-7xl font-serif mb-6">Elevating Home Management to an Art Form</h1>
+                        <p class="text-xl md:text-2xl mb-8">Professional domestic management services tailored to your
+                            lifestyle</p><a href="#contact" class="btn-primary text-lg">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <section id="services" class="py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="text-4xl font-serif text-center mb-16">Our Premium Services</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="bg-white p-8 rounded-lg shadow-md"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-home h-12 w-12 text-primary mb-6">
+                                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                            <h3 class="text-2xl font-serif mb-4">Property Management</h3>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• Regular property maintenance</li>
+                                <li>• Vendor coordination</li>
+                                <li>• Seasonal property preparation</li>
+                                <li>• Emergency response management</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-8 rounded-lg shadow-md"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-users h-12 w-12 text-primary mb-6">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <h3 class="text-2xl font-serif mb-4">Staff Management</h3>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• Staff recruitment and training</li>
+                                <li>• Schedule coordination</li>
+                                <li>• Performance monitoring</li>
+                                <li>• Staff development programs</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-8 rounded-lg shadow-md"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-shield h-12 w-12 text-primary mb-6">
+                                <path
+                                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                </path>
+                            </svg>
+                            <h3 class="text-2xl font-serif mb-4">Security Solutions</h3>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• 24/7 monitoring systems</li>
+                                <li>• Access control management</li>
+                                <li>• Security staff coordination</li>
+                                <li>• Emergency protocols</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-8 rounded-lg shadow-md"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-coffee h-12 w-12 text-primary mb-6">
+                                <path d="M17 8h1a4 4 0 1 1 0 8h-1"></path>
+                                <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path>
+                                <line x1="6" x2="6" y1="2" y2="4"></line>
+                                <line x1="10" x2="10" y1="2" y2="4"></line>
+                                <line x1="14" x2="14" y1="2" y2="4"></line>
+                            </svg>
+                            <h3 class="text-2xl font-serif mb-4">Lifestyle Management</h3>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• Event planning and coordination</li>
+                                <li>• Personal shopping services</li>
+                                <li>• Travel arrangements</li>
+                                <li>• Lifestyle consulting</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-8 rounded-lg shadow-md"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-car h-12 w-12 text-primary mb-6">
+                                <path
+                                    d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2">
+                                </path>
+                                <circle cx="7" cy="17" r="2"></circle>
+                                <path d="M9 17h6"></path>
+                                <circle cx="17" cy="17" r="2"></circle>
+                            </svg>
+                            <h3 class="text-2xl font-serif mb-4">Transportation</h3>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• Fleet management</li>
+                                <li>• Chauffeur services</li>
+                                <li>• Vehicle maintenance</li>
+                                <li>• Travel logistics</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-8 rounded-lg shadow-md"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-calendar h-12 w-12 text-primary mb-6">
+                                <path d="M8 2v4"></path>
+                                <path d="M16 2v4"></path>
+                                <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                <path d="M3 10h18"></path>
+                            </svg>
+                            <h3 class="text-2xl font-serif mb-4">Schedule Management</h3>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• Calendar coordination</li>
+                                <li>• Appointment scheduling</li>
+                                <li>• Event planning</li>
+                                <li>• Time management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="py-20 bg-gray-50">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="text-4xl font-serif text-center mb-16">About Us</h2>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="space-y-4">
+                            <h3 class="text-2xl font-semibold text-gray-800">Our Story</h3>
+                            <p class="text-gray-600">We are dedicated to delivering exceptional service and innovative
+                                solutions to meet our clients' needs. With years of experience in the industry, our team
+                                brings expertise and passion to every project we undertake.</p>
+                            <p class="text-gray-600">Our commitment to excellence and customer satisfaction has made us
+                                a
+                                trusted partner for businesses and individuals alike.</p>
+                        </div>
+                        <div class="rounded-lg overflow-hidden shadow-lg"><img
+                                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+                                alt="Team collaboration" class="w-full h-full object-cover"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="text-4xl font-serif text-center mb-16">Contact Us</h2>
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div class="bg-white p-8 rounded-lg shadow-md">
+                            <h3 class="text-3xl font-serif mb-6">Send Us a Message</h3>
+                            <form class="space-y-6" name="contact" method="POST" data-netlify="true"><input
+                                    type="hidden" name="form-name" value="contact">
+                                <div><label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full
+                                        Name</label><input type="text" id="name" name="name"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"
+                                        required=""></div>
+                                <div><label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email
+                                        Address</label><input type="email" id="email" name="email"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"
+                                        required=""></div>
+                                <div><label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone
+                                        Number</label><input type="tel" id="phone" name="phone"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary">
+                                </div>
+                                <div><label for="message"
+                                        class="block text-sm font-medium text-gray-700 mb-1">Message</label><textarea
+                                        id="message" name="message" rows="4"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"
+                                        required=""></textarea></div><button type="submit"
+                                    class="btn-primary w-full">Send
+                                    Message</button>
+                            </form>
+                        </div>
+                        <div class="space-y-8">
+                            <div class="bg-white p-8 rounded-lg shadow-md">
+                                <h3 class="text-3xl font-serif mb-6">Contact Information</h3>
+                                <div class="space-y-6">
+                                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-phone h-6 w-6 text-primary mr-4 mt-1">
+                                            <path
+                                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                            </path>
+                                        </svg>
+                                        <div>
+                                            <h4 class="font-semibold">Phone</h4>
+                                            <p class="text-gray-600">+1 (555) 123-4567</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-mail h-6 w-6 text-primary mr-4 mt-1">
+                                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                        </svg>
+                                        <div>
+                                            <h4 class="font-semibold">Email</h4>
+                                            <p class="text-gray-600">contact@dmc.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-map-pin h-6 w-6 text-primary mr-4 mt-1">
+                                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg>
+                                        <div>
+                                            <h4 class="font-semibold">Address</h4>
+                                            <p class="text-gray-600">123 Luxury Ave, Suite 100<br>Beverly Hills, CA
+                                                90210
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white p-8 rounded-lg shadow-md">
+                                <h3 class="text-3xl font-serif mb-6">Business Hours</h3>
+                                <div class="space-y-2">
+                                    <div class="flex justify-between"><span class="text-gray-600">Monday -
+                                            Friday</span><span class="font-semibold">9:00 AM - 6:00 PM</span></div>
+                                    <div class="flex justify-between"><span class="text-gray-600">Saturday</span><span
+                                            class="font-semibold">10:00 AM - 4:00 PM</span></div>
+                                    <div class="flex justify-between"><span class="text-gray-600">Sunday</span><span
+                                            class="font-semibold">Closed</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="bg-secondary text-white">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                    <div class="grid md:grid-cols-4 gap-8">
+                        <div>
+                            <h3 class="text-2xl font-serif mb-4">DMC</h3>
+                            <p class="text-gray-400">Elevating home management to an art form since 2010.</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-serif mb-4">Quick Links</h4>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="text-gray-400 hover:text-primary">Home</a></li>
+                                <li><a href="#services" class="text-gray-400 hover:text-primary">Services</a></li>
+                                <li><a href="#about" class="text-gray-400 hover:text-primary">About</a></li>
+                                <li><a href="#contact" class="text-gray-400 hover:text-primary">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-serif mb-4">Services</h4>
+                            <ul class="space-y-2">
+                                <li class="text-gray-400">Property Management</li>
+                                <li class="text-gray-400">Staff Management</li>
+                                <li class="text-gray-400">Security Solutions</li>
+                                <li class="text-gray-400">Lifestyle Management</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-serif mb-4">Contact</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-center text-gray-400"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide lucide-phone h-5 w-5 mr-2">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>+1 (555) 123-4567</li>
+                                <li class="flex items-center text-gray-400"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide lucide-mail h-5 w-5 mr-2">
+                                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                    </svg>contact@dmc.com</li>
+                                <li class="flex items-center text-gray-400"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide lucide-map-pin h-5 w-5 mr-2">
+                                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>123 Luxury Ave, Suite 100<br>Beverly Hills, CA 90210</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                        <p>© 2025 Domestic Management Company. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
